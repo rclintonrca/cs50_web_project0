@@ -7,10 +7,10 @@ Web Programming with Python and JavaScript
 Each of my pages is going to descibe a pair of paradoxes and biases.
 
 
-- [simpson.html]
+- [simpson.html](simpson.html)
 - [interestingnumber.html](interestingnumber.html)
-- [montyhall.html]
-- [dichotomy.html]
+- [montyhall.html](montyhall.html)
+- [dichotomy.html](dichotomy.html)
 
 ## Requirements:
 
