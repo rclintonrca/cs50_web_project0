@@ -2,7 +2,12 @@
 
 Web Programming with Python and JavaScript
 
+## Demo site
+[https://rclintonrca.github.io/cs50_web_project0/](https://rclintonrca.github.io/cs50_web_project0/)
+
+
 ## File List
+
 
 Each of my pages is going to descibe a pair of paradoxes and biases.
 
