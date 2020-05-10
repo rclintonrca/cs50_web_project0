@@ -1,0 +1,98 @@
+$mobileColor:fuchsia;
+$desktopColor:salmon;
+$desktopFontSize:62px;
+$mobileFontSize:32px;
+
+%special {
+    font-weight: bold;
+    color: red;
+}
+
+body {
+    padding: 2%;
+  
+  }
+  
+  .col-lg-6 {
+    color: rebeccapurple;
+  }
+  
+  table {
+    margin: 2%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  @media print {
+    .noprint{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    h1 {
+      font-size: $desktopFontSize;
+      color: $desktopColor;
+    }
+  }
+  
+  @media (max-width: 699px) {
+    h1 {
+      font-size: $mobileFontSize;
+      color: $mobileColor
+    }
+  }
+  
+div.wacky {
+    @extend %special;
+    text-align: center;
+}
+
+div.top {
+    @extend %special;
+    text-align: right;
+}
+
+  ul:hover{
+    background: red;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h6 {
+    color: blue;
+    text-align: left;
+  }
+  
+  #top {
+    font: 25px Arial, sans-serif;
+  }
+  
+  ul {
+    background: olivedrab;
+    border: 5px solid red;
+  }
+  
+  ul:hover{
+    background: red;
+  }
+
+  div {
+      opacity: 90%;
+      p {
+          background-color: rosybrown;
+      }
+  }

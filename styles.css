@@ -1,9 +1,89 @@
+div.top, div.wacky {
+  font-weight: bold;
+  color: red;
+}
+
+body {
+  padding: 2%;
+}
+
+.col-lg-6 {
+  color: rebeccapurple;
+}
+
+table {
+  margin: 2%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  h1 {
+    font-size: 62px;
+    color: salmon;
+  }
+}
+@media (max-width: 699px) {
+  h1 {
+    font-size: 32px;
+    color: fuchsia;
+  }
+}
+div.wacky {
+  text-align: center;
+}
+
+div.top {
+  text-align: right;
+}
+
+ul:hover {
+  background: red;
+}
+
 h1 {
-  color: blue;
   text-align: center;
 }
 
 h6 {
-  color: red;
-  text-align: right;
+  color: blue;
+  text-align: left;
 }
+
+#top {
+  font: 25px Arial, sans-serif;
+}
+
+ul {
+  background: olivedrab;
+  border: 5px solid red;
+}
+
+ul:hover {
+  background: red;
+}
+
+div {
+  opacity: 90%;
+}
+div p {
+  background-color: rosybrown;
+}
+
+/*# sourceMappingURL=styles.css.map */
